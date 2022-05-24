@@ -1,11 +1,13 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   </head>
   <body>
-    <a-scene artoolkit>
+    <a-scene artoolkit arjs>
         <!-- define your scene as usual -->
         <a-box></a-box>
+        
         <!-- define a camera inside the <a-marker-camera> -->
         <a-marker-camera type="pattern" url="https://raw.githubusercontent.com/Dbald/Hyperspace_Marker_AR/main/assets/img/logo.jpg"><a-marker-camera>
         </a-scene>
